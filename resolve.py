@@ -22,13 +22,13 @@ def list_dependencies(name, repoid):
     return list(reqs)
 
 
-repo_info = []
+packages = {}
 for pkg in list_packages(REPOID):
     pkg['requires'] = list_dependencies(pkg['name'], REPOID)
-    repo_info.append(pkg.copy())
+    packages[pkg['name']] = pkg
 
 with open('packages.json', 'w') as f:
-    f.write(json.dumps(repo_info, indent=2, sort_keys=True))
+    f.write(json.dumps(packages, indent=2, sort_keys=True))
 
 """
 rpms = {}
