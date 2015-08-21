@@ -2,23 +2,35 @@
 
 import json
 from sh import repoquery
-from sh import ls
+
+REPOID='mos61'
 
 def list_packages(repoid):
     queryfmt = '{"name":"%{name}","version":"%{version}",' \
-               '"release":"%{release}","arch":"%{arch}",' \
-               '"repository":"%{repoid}","packager":"%{packager}"}'
+               '"release":"%{release}","vendor":"%{vendor}",' \
+               '"repoid":"%{repoid}","packager":"%{packager}"}'
     for line in repoquery('-a', '--repoid=%s' % repoid, '--qf', queryfmt):
         yield json.loads(line)
 
 def list_dependencies(name, repoid):
     reqs = set()
-    for item in repoquery('--repoid=%s' % repoid, '--qf', '%{name}', '--resolve', '--requires', name):
+    for item in repoquery('--repoid=%s' % repoid, '--qf', '%{name}',
+                          '--resolve', '--requires', name):
         item = item.strip()
         if item != name:
             reqs.add(item)
     return list(reqs)
 
+
+repo_info = []
+for pkg in list_packages(REPOID):
+    pkg['requires'] = list_dependencies(pkg['name'], REPOID)
+    repo_info.append(pkg.copy())
+
+with open('packages.json', 'w') as f:
+    f.write(json.dumps(repo_info, indent=2, sort_keys=True))
+
+"""
 rpms = {}
 rdeps = {}
 for item in list_packages('mos61'):
@@ -37,4 +49,5 @@ with open('backrefs.txt', 'w') as f:
         deps = list(rdeps[key])
         deps.sort()
         f.write('%s; %s; %s; %s; %s\n' % (len(deps), key, rpms[key]['version'], rpms[key]['packager'], ' '.join(deps)))
+"""
 
