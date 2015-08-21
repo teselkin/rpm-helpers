@@ -2,6 +2,8 @@
 
 import json
 
+REPOID = 'mos61'
+
 
 with open('packages.json') as f:
     packages = json.load(f)
@@ -9,19 +11,15 @@ with open('packages.json') as f:
 
 rdeps = {}
 for name in packages:
-    pkg = packages[name]
-    if name not in rdeps:
-        rdeps[name] = set()
+    pkg = packages[name][REPOID]
+    rdeps.setdefault(name, set())
     for dep in pkg['requires']:
-        if dep in rdeps:
-            rdeps[dep].add(name)
-        else:
-            rdeps[name] = set()
+        rdeps.setdefault(dep, set()).add(name)
 
 
 backrefs = {}
 for name in rdeps:
-    pkg = packages[name]
+    pkg = packages[name][REPOID]
     rec = {
         'rdeps': list(rdeps[name]),
         'count': len(rdeps[name]),
