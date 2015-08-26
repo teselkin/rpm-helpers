@@ -1,3 +1,6 @@
+.idea/
+.venv/
 *.csv
 *.json
 *.pyc
+requirements-rpm.txt
