@@ -3,10 +3,14 @@
 import json
 import re
 
+import sys
+reload(sys)
+sys.setdefaultencoding('utf8')
+
 from lib.rpm_repodata import Repodata
 
 INTERNAL_REPO = ['mos61']
-EXTERNAL_REPO = ['base', 'epel']
+EXTERNAL_REPO = ['base', 'extras', 'updates', 'epel']
 
 re_nvr = r'([\w\-]+)-((\d+\:)??[\w\.]*(?=\d+)[\w\.]*)-([\w\.]*(?=\d+)[\w\.]*)'
 
@@ -37,9 +41,6 @@ def compare_versions(a, b):
         if len(aa) < len(bb):
             return 'VERSION_LT'
 
-#        if a['epoch'] != b['epoch']:
-#            return 'NO_MATCH'
-
         if a['release'] != b['release']:
             return 'VERSION_MATCH'
     except:
@@ -62,6 +63,15 @@ with open('packages-ext.json') as f:
 
 with open('backrefs.json') as f:
     backrefs = json.load(f)
+
+with open('ownership.json') as f:
+    ownership = json.load(f)
+
+with open('master-node-pkgs.json') as f:
+    master_node_pkgs = json.load(f)
+
+with open('master-node-packages.txt.json') as f:
+    master_node_packages = json.load(f)
 
 groups = {}
 requirements_rpm = []
@@ -89,10 +99,14 @@ rec_template = {
     'version_evr': '',
     'vendor': '',
     'match': '',
+    'owner': '',
+    'comment': '',
     'ext_repoid': '',
     'ext_pkg_name': '',
     'ext_vendor': '',
     'reason': '',
+    'summary': '',
+    'source': '',
 }
 summary = []
 for name in packages.keys():
@@ -105,14 +119,17 @@ for name in packages.keys():
 
             pkg_ext = packages_ext[name][repoid_ext]
 
+            rec = {}
             rec.update(rec_template)
             rec['name'] = name
             rec['backrefs'] = backrefs[name]['count']
-            rec['version_evr'] = '{epoch}:{version}-{release}'.format(**pkg_int)
+            rec['version_evr'] = '{version}-{release}'.format(**pkg_int)
             rec['vendor'] = pkg_int['vendor']
+            rec['source'] = pkg_int['source']
+            rec['summary'] = pkg_int['summary']
             rec['match'] = compare_versions(pkg_int, pkg_ext)
             rec['ext_repoid'] = pkg_ext['repoid']
-            rec['ext_pkg_name'] = '{name}-{epoch}:{version}-{release}'.format(**pkg_ext)
+            rec['ext_pkg_name'] = '{name}-{version}-{release}'.format(**pkg_ext)
             rec['ext_vendor'] = pkg_ext['vendor']
             summary.append(rec)
 
@@ -120,26 +137,45 @@ for name in packages.keys():
             rec.update(rec_template)
             rec['name'] = name
             rec['backrefs'] = backrefs[name]['count']
-            rec['version_evr'] = '{epoch}:{version}-{release}'.format(**pkg_int)
+            rec['version_evr'] = '{version}-{release}'.format(**pkg_int)
             rec['match'] = 'NOT_FOUND'
             rec['vendor'] = pkg_int['vendor']
+            rec['source'] = pkg_int['source']
+            rec['summary'] = pkg_int['summary']
             summary.append(rec)
 
 for rec in summary:
-    if rec['name'] in requirements_rpm:
-        rec['reason'] = 'FUEL_MAIN'
     for group in groups.keys():
         if rec['name'] in groups[group]:
             rec['reason'] = group
+    if rec['name'] in requirements_rpm:
+        rec['reason'] = 'FUEL_MAIN'
+    for reason in master_node_pkgs.keys():
+        if rec['name'] in master_node_pkgs[reason]:
+            rec['reason'] = reason
+    for reason in master_node_packages.keys():
+        if rec['name'] in master_node_packages[reason]:
+            rec['reason'] = reason
 
-fmt_string = '{name}; {backrefs}; {reason}; {version_evr}; {vendor}; ' \
-             '{match}; {ext_repoid}; {ext_pkg_name}; {ext_vendor}\n'
+    for owner in ownership.keys():
+        if rec['name'] in ownership[owner]:
+            rec['owner'] = owner
+            break
+
+fmt_string = '{name};{summary};{owner};{comment};{backrefs};{reason};' \
+             '{source};{version_evr};{vendor};{match};{ext_repoid};' \
+             '{ext_pkg_name};{ext_vendor}\n'
 header = {
     'name': 'Name',
+    'owner': 'Owner',
+    'comment': 'Comment',
     'backrefs': 'Backrefs',
+    'source': 'Source',
+    'summary': 'Summary',
     'reason': 'Reason',
     'version_evr': 'Version',
     'vendor': 'Vendor',
+    'packager': 'Packager',
     'match': 'Match Ext',
     'ext_repoid': 'Ext Repo',
     'ext_pkg_name': 'Ext Package',

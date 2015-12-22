@@ -1,0 +1,1280 @@
+abrt 
+abrt-addon-ccpp 
+abrt-addon-kerneloops 
+abrt-addon-python 
+abrt-cli 
+abrt-libs 
+abrt-tui 
+acl 
+acpid 
+aic94xx-firmware 
+alsa-lib 
+alsa-utils 
+ami-creator mos-linux
+apr 
+apr-util mos-linux
+apr-util-ldap mos-linux
+at 
+atk 
+atlas 
+atmel-firmware 
+atop mos-linux
+attr 
+audit 
+audit-libs 
+audit-libs-python 
+augeas-libs ?
+authconfig 
+autoconf 
+automake 
+avahi 
+avahi-libs 
+b43-fwcutter 
+b43-openfwwf 
+basesystem 
+bash mos-linux
+bc 
+bfa-firmware 
+bind-libs 
+bind-utils 
+binutils 
+biosdevname 
+blktrace 
+bluez-libs 
+boost-filesystem 
+boost-iostreams 
+boost-program-options 
+boost-system 
+boost-thread 
+bridge-utils 
+brlapi 
+brltty 
+btparser 
+btrfs-progs 
+busybox 
+byacc 
+bzip2 
+bzip2-libs 
+c-ares19 ?
+ca-certificates 
+cairo 
+ccs 
+celt051 
+centos-indexhtml 
+centos-release 
+ceph ceph
+ceph-common ceph
+ceph-common ceph
+ceph-deploy ceph
+ceph-radosgw ceph
+ceph-test ceph
+checkpolicy 
+chkconfig 
+cifs-utils 
+cirros-testvm mos-linux
+cirros-testvm-mellanox mos-linux
+cirros-testvmware partner
+cloog-ppl 
+cloud-init mos-dat
+cloud-utils mos-dat
+cloud-utils-growpart mos-dat
+cluster-glue-libs ?
+cobbler fuel-xxx
+cobbler-web fuel-xxx
+compat-readline5 
+conntrack-tools mos-linux
+ConsoleKit 
+ConsoleKit-libs 
+coreutils 
+coreutils-libs 
+corosync mos-linux
+corosynclib mos-linux
+cpio 
+cpp 
+cpufreq-init mos-linux
+cpuspeed 
+cracklib 
+cracklib-dicts 
+crda 
+createrepo 
+crmsh fuel-library
+cronie 
+cronie-anacron 
+crontabs 
+cryptsetup-luks 
+cryptsetup-luks-libs 
+cups-libs 
+curl 
+cvs 
+cyrus-sasl 
+cyrus-sasl-lib 
+cyrus-sasl-md5 
+cyrus-sasl-plain 
+daemonize fuel-library
+dash 
+db4 
+db4-cxx 
+db4-devel 
+db4-utils 
+dbus 
+dbus-glib 
+dbus-libs 
+dbus-python 
+debmirror fuel-xxx
+debootstrap ?
+dejavu-fonts-common 
+dejavu-sans-fonts 
+deltaiso fuel-xxx
+deltarpm fuel-xxx
+desktop-file-utils 
+device-mapper *
+device-mapper-event *
+device-mapper-event-libs *
+device-mapper-libs *
+device-mapper-persistent-data *
+dhclient 
+dhcp 
+dhcp-common 
+diffutils 
+disktype ???
+Django14 mos-dat
+dkms ???
+dmidecode 
+dmraid 
+dmraid-events 
+dnsmasq mos-linux
+dnsmasq-utils mos-linux
+docker-io *
+dosfstools 
+dpkg *
+dpkg-devel *
+dracut 
+dracut-kernel 
+dstat 
+e2fsprogs 
+e2fsprogs-libs 
+ebtables 
+ed 
+efibootmgr 
+eggdbus 
+eject 
+elfutils 
+elfutils-libelf 
+elfutils-libs 
+erlang ?
+erlang-appmon ?
+erlang-asn1 ?
+erlang-common_test ?
+erlang-compiler ?
+erlang-cosEvent ?
+erlang-cosEventDomain ?
+erlang-cosFileTransfer ?
+erlang-cosNotification ?
+erlang-cosProperty ?
+erlang-cosTime ?
+erlang-cosTransactions ?
+erlang-crypto ?
+erlang-debugger ?
+erlang-dialyzer ?
+erlang-diameter ?
+erlang-doc ?
+erlang-docbuilder ?
+erlang-edoc ?
+erlang-erl_docgen ?
+erlang-erl_interface ?
+erlang-erts ?
+erlang-et ?
+erlang-eunit ?
+erlang-examples ?
+erlang-gs ?
+erlang-hipe ?
+erlang-ic ?
+erlang-inets ?
+erlang-inviso ?
+erlang-jinterface ?
+erlang-kernel ?
+erlang-megaco ?
+erlang-mnesia ?
+erlang-observer ?
+erlang-odbc ?
+erlang-orber ?
+erlang-os_mon ?
+erlang-otp_mibs ?
+erlang-parsetools ?
+erlang-percept ?
+erlang-pman ?
+erlang-public_key ?
+erlang-reltool ?
+erlang-runtime_tools ?
+erlang-sasl ?
+erlang-snmp ?
+erlang-ssh ?
+erlang-ssl ?
+erlang-stdlib ?
+erlang-syntax_tools ?
+erlang-test_server ?
+erlang-toolbar ?
+erlang-tools ?
+erlang-tv ?
+erlang-typer ?
+erlang-webtool ?
+erlang-wx ?
+erlang-xmerl ?
+eswitchd ?
+ethtool 
+euca2ools *
+expat 
+facter 
+fcgiwrap ???
+fdupes ?
+febootstrap-supermin-helper ?
+fence-agents 
+fencing-agent fuel-xxx
+file 
+file-libs 
+filesystem 
+findutils 
+fipscheck 
+fipscheck-lib 
+flac 
+flex 
+fontconfig 
+fontpackages-filesystem 
+fping *
+fprintd 
+fprintd-pam 
+freetype 
+fuel-createmirror fuel-python
+fuel-dockerctl fuel-python
+fuel-ostf fuel-python
+fuel-utils fuel-python
+fuelmenu 
+fuse 
+fuse-libs 
+galera 
+gamin 
+gawk 
+gcc 
+gcc-c++ 
+gcc-gfortran 
+gd 
+gdb 
+gdbm 
+gdbm-devel 
+gdisk *
+genisoimage *
+GeoIP *
+gettext 
+ghostscript 
+ghostscript-fonts 
+git 
+glib2 
+glibc 
+glibc-common 
+glibc-devel 
+glibc-headers 
+gmp 
+gnupg2 
+gnutls 
+gnutls-utils 
+gperftools-libs ???
+gpgme 
+gpm-libs 
+gpxe-bootimgs 
+grep 
+groff 
+grub 
+grubby 
+gtk2 
+gzip 
+hal 
+hal-info 
+hal-libs 
+haproxy mos-linux
+hdparm 
+hicolor-icon-theme 
+hiera 
+hivex *
+hpsa mos-linux
+htop *
+http-parser ???
+httpd *
+httpd-tools *
+hunspell 
+hunspell-en 
+hwdata 
+iksemel ???
+info 
+initscripts 
+iperf mos-linux
+iperf3 mos-linux
+ipmitool 
+iproute *
+ipset *
+iptables *
+iptables-ipv6 ???
+iputils 
+ipw2100-firmware 
+ipw2200-firmware 
+ipxe-roms-qemu mos-linux
+irqbalance 
+iscsi-initiator-utils 
+ivtv-firmware 
+iw 
+iwl100-firmware mos-linux
+iwl1000-firmware mos-linux
+iwl3945-firmware mos-linux
+iwl4965-firmware mos-linux
+iwl5000-firmware mos-linux
+iwl5150-firmware mos-linux
+iwl6000-firmware mos-linux
+iwl6000g2a-firmware mos-linux
+iwl6050-firmware mos-linux
+jasper-libs 
+json-c *
+kbd 
+kbd-misc 
+keepalived *
+kernel mos-linux
+kernel-devel mos-linux
+kernel-firmware mos-linux
+kernel-headers mos-linux
+kernel-lt mos-linux
+kernel-lt-devel mos-linux
+kernel-lt-headers mos-linux
+kexec-tools 
+keyutils 
+keyutils-libs 
+keyutils-libs-devel 
+kmod-openvswitch mos-linux
+kmod-openvswitch-lt mos-linux
+kpartx 
+krb5-devel 
+krb5-libs 
+ledmon 
+less 
+leveldb ???
+libacl 
+libaio 
+libasyncns 
+libattr 
+libblkid 
+libcap 
+libcap-ng 
+libcephfs1 ceph
+libcgroup 
+libcom_err 
+libcom_err-devel 
+libconfig 
+libcurl 
+libdaemon 
+libdrm 
+libedit 
+libertas-usb8388-firmware mos-linux
+libevent 
+libevent-devel 
+libevent-doc 
+libevent-headers 
+libewf ???
+libfcgi ???
+libffi 
+libfontenc 
+libfprint 
+libgcc 
+libgcrypt 
+libgfortran 
+libgomp 
+libgpg-error 
+libgssglue 
+libguestfs *
+libguestfs-tools-c *
+libibverbs 
+libICE 
+libicu 
+libidn 
+libiscsi *
+libjpeg-turbo 
+libmemcached *
+libmlx4 
+libmnl 
+libmongodb ?
+libnet *
+libnetfilter_conntrack 
+libnfnetlink 
+libnih 
+libnl 
+libogg 
+libpcap 
+libpciaccess 
+libpng 
+libproxy 
+libproxy-bin 
+libproxy-python 
+libqb *
+librados2 ceph
+librados2 ceph
+librbd1 ceph
+librbd1 ceph
+librdmacm 
+librelp 
+libreport 
+libreport-cli 
+libreport-compat 
+libreport-plugin-kerneloops 
+libreport-plugin-logger 
+libreport-plugin-mailx 
+libreport-plugin-reportuploader 
+libreport-plugin-rhtsupport 
+libreport-python 
+libselinux 
+libselinux-devel 
+libselinux-python 
+libselinux-ruby 
+libselinux-utils 
+libsemanage 
+libsemanage-python 
+libsepol 
+libsepol-devel 
+libSM 
+libsndfile 
+libss 
+libssh2 
+libstdc++ 
+libstdc++-devel 
+libsysfs 
+libtalloc 
+libtar 
+libtasn1 
+libtdb 
+libtevent 
+libthai 
+libtiff 
+libtirpc 
+libtool-ltdl 
+libudev 
+libunwind ?
+libusb 
+libusbx mos-linux
+libuser 
+libutempter 
+libuuid 
+libuv ?
+libuv-devel ?
+libvirt mos-linux
+libvirt-client mos-linux
+libvirt-daemon mos-linux
+libvirt-daemon-config-network mos-linux
+libvirt-daemon-config-nwfilter mos-linux
+libvirt-daemon-driver-interface mos-linux
+libvirt-daemon-driver-lxc mos-linux
+libvirt-daemon-driver-network mos-linux
+libvirt-daemon-driver-nodedev mos-linux
+libvirt-daemon-driver-nwfilter mos-linux
+libvirt-daemon-driver-qemu mos-linux
+libvirt-daemon-driver-secret mos-linux
+libvirt-daemon-driver-storage mos-linux
+libvirt-python ?
+libvorbis 
+libX11 
+libX11-common 
+libXau 
+libxcb 
+libXcomposite 
+libXcursor 
+libXdamage 
+libXext 
+libXfixes 
+libXfont 
+libXft 
+libXi 
+libXinerama 
+libxml2 
+libxml2-python 
+libXpm 
+libXrandr 
+libXrender 
+libxslt 
+libXt 
+libXtst 
+libXxf86vm 
+libyaml *
+linux-firmware mos-linux
+lldpad 
+lldpad-libs 
+lm_sensors-libs 
+logrotate mos-linux
+lrzip mos-linux
+lshell ?
+lsof 
+lua 
+lvm2 mos-linux
+lvm2-libs *
+lxc mos-linux
+lxc-libs mos-linux
+lzo 
+lzop *
+m2crypto 
+m4 
+mailcap *
+mailx 
+make 
+MAKEDEV 
+man 
+man-pages 
+man-pages-overrides 
+mc 
+mcollective fuel-python
+mcollective-client ?
+mcollective-common ?
+mdadm 
+megaraid_sas mos-linux
+memcached 
+mesa-dri-drivers 
+mesa-dri-filesystem 
+mesa-dri1-drivers 
+mesa-libGL 
+mesa-libGLU 
+mesa-private-llvm 
+microcode_ctl 
+mingetty 
+mlnx-ofed-light partner
+mlocate 
+mod_fastcgi 
+mod_ssl *
+mod_wsgi *
+module-init-tools 
+mongodb mos-linux
+mongodb-server mos-linux
+monit 
+mpfr 
+mtools *
+mtr 
+murano mos-dat
+murano-dashboard mos-dat
+MySQL-client-wsrep 
+mysql-libs 
+MySQL-python mos-dat
+MySQL-server-wsrep 
+MySQL-shared-wsrep 
+nagios-common ?
+nailgun fuel-python
+nailgun-agent fuel-python
+nailgun-mcagents fuel-python
+nailgun-net-check fuel-python
+nano 
+nc 
+ncurses 
+ncurses-base 
+ncurses-libs 
+net-snmp 
+net-snmp-libs 
+net-snmp-utils 
+net-tools 
+netcf-libs 
+netpbm 
+netpbm-progs 
+newt 
+newt-python 
+nfs-utils 
+nfs-utils-lib 
+nginx ?
+nmap *
+nmap-ncat *
+nodejs mos-dat
+nodejs-less mos-dat
+novnc mos-linux
+nrpe ?
+nspr 
+nss 
+nss-softokn 
+nss-softokn-freebl 
+nss-sysinit 
+nss-tools 
+nss-util 
+ntp 
+ntpdate 
+ntsysv 
+numactl 
+numad 
+numpy 
+numpy-f2py 
+OpenIPMI-libs 
+openldap 
+openpgm ?
+openssh 
+openssh-clients 
+openssh-server 
+openssl 
+openssl-devel 
+openstack-ceilometer-alarm mos-dat
+openstack-ceilometer-api mos-dat
+openstack-ceilometer-central mos-dat
+openstack-ceilometer-collector mos-dat
+openstack-ceilometer-common mos-dat
+openstack-ceilometer-compute mos-dat
+openstack-ceilometer-notification mos-dat
+openstack-cinder mos-dat
+openstack-dashboard mos-dat
+openstack-glance mos-dat
+openstack-heat-api mos-dat
+openstack-heat-api-cfn mos-dat
+openstack-heat-api-cloudwatch mos-dat
+openstack-heat-common mos-dat
+openstack-heat-docker mos-dat
+openstack-heat-engine mos-dat
+openstack-keystone mos-dat
+openstack-neutron mos-dat
+openstack-neutron-bigswitch mos-dat
+openstack-neutron-brocade mos-dat
+openstack-neutron-cisco mos-dat
+openstack-neutron-hyperv mos-dat
+openstack-neutron-ibm mos-dat
+openstack-neutron-linuxbridge mos-dat
+openstack-neutron-mellanox mos-dat
+openstack-neutron-metering-agent mos-dat
+openstack-neutron-midonet mos-dat
+openstack-neutron-ml2 mos-dat
+openstack-neutron-nec mos-dat
+openstack-neutron-nuage mos-dat
+openstack-neutron-ofagent mos-dat
+openstack-neutron-oneconvergence-nvsd mos-dat
+openstack-neutron-openvswitch mos-dat
+openstack-neutron-plumgrid mos-dat
+openstack-neutron-ryu mos-dat
+openstack-neutron-vmware mos-dat
+openstack-neutron-vpn-agent mos-dat
+openstack-nova mos-dat
+openstack-nova-api mos-dat
+openstack-nova-cells mos-dat
+openstack-nova-cert mos-dat
+openstack-nova-common mos-dat
+openstack-nova-compute mos-dat
+openstack-nova-conductor mos-dat
+openstack-nova-console mos-dat
+openstack-nova-network mos-dat
+openstack-nova-novncproxy mos-dat
+openstack-nova-objectstore mos-dat
+openstack-nova-scheduler mos-dat
+openstack-swift mos-dat
+openstack-swift-account mos-dat
+openstack-swift-container mos-dat
+openstack-swift-object mos-dat
+openstack-swift-plugin-swift3 mos-dat
+openstack-swift-proxy mos-dat
+openstack-utils mos-dat
+openvswitch 
+p11-kit 
+p11-kit-trust 
+pacemaker mos-linux
+pacemaker-cli mos-linux
+pacemaker-cluster-libs mos-linux
+pacemaker-libs mos-linux
+pam 
+pam_passwdqc 
+pango 
+parted 
+passwd 
+patch 
+pax 
+pcapy ?
+pciutils 
+pciutils-libs 
+pcmciautils 
+pcre 
+pcs mos-linux
+percona-toolkit mos-linux
+percona-xtrabackup mos-linux
+perl 
+perl-CGI 
+perl-Compress-Raw-Zlib 
+perl-Compress-Zlib 
+perl-Config-General 
+perl-DBD-MySQL ???
+perl-DBI 
+perl-devel 
+perl-Digest-SHA 
+perl-Error 
+perl-ExtUtils-MakeMaker 
+perl-ExtUtils-ParseXS 
+perl-Git 
+perl-hivex ???
+perl-HTML-Parser 
+perl-HTML-Tagset 
+perl-IO-Compress-Base 
+perl-IO-Compress-Zlib 
+perl-libs 
+perl-libwww-perl 
+perl-LockFile-Simple ???
+perl-Module-Pluggable 
+perl-Net-Telnet 
+perl-Pod-Escapes 
+perl-Pod-Simple 
+perl-TermReadKey 
+perl-Test-Harness 
+perl-Test-Simple 
+perl-Time-HiRes 
+perl-TimeDate 
+perl-URI 
+perl-version 
+pexpect 
+php 
+php-bcmath 
+php-cli 
+php-common 
+php-gd 
+php-mbstring 
+php-mysql 
+php-pdo 
+php-pgsql 
+php-xml 
+pinentry 
+pinfo 
+pixman 
+pkgconfig 
+plymouth 
+plymouth-core-libs 
+plymouth-scripts 
+pm-utils 
+policycoreutils 
+policycoreutils-python 
+polkit 
+popt 
+portreserve 
+postfix 
+postgresql ?
+postgresql-devel ?
+postgresql-libs ?
+postgresql-server ?
+ppl 
+prelink 
+procps 
+psacct 
+psmisc 
+pssh ?
+pth 
+pulseaudio-libs 
+puppet 
+pydot-ng ???
+pygobject2 
+pygpgme 
+pykickstart 
+pyOpenSSL mos-dat
+PyPAM 
+pyparsing mos-dat
+pyparsing-doc mos-dat
+pysendfile mos-dat
+pysnmp mos-dat
+python 
+python-actdiag 
+python-alembic mos-dat
+python-amqp mos-dat
+python-amqplib mos-dat
+python-anyjson mos-dat
+python-argparse mos-dat
+python-babel mos-dat
+python-backports mos-dat
+python-backports-ssl_match_hostname mos-dat
+python-barbicanclient mos-dat
+python-beaker 
+python-beautifulsoup4 mos-dat
+python-blockdiag 
+python-boto mos-dat
+python-bson mos-dat
+python-ceilometer mos-dat
+python-ceilometerclient mos-dat
+python-ceph mos-dat
+python-chardet mos-dat
+python-cheetah mos-dat
+python-cherrypy mos-dat
+python-cinder mos-dat
+python-cinderclient mos-dat
+python-cliff mos-dat
+python-cliff-tablib mos-dat
+python-cloudfiles mos-dat
+python-cm-api mos-dat
+python-cmd2 mos-dat
+python-configobj 
+python-croniter mos-dat
+python-crypto mos-dat
+python-d2to1 mos-dat
+python-daemon mos-dat
+python-daemonize 
+python-dateutil 
+python-decorator mos-dat
+python-deltarpm mos-dat
+python-devel 
+python-distribute 
+python-django mos-dat
+python-django-appconf mos-dat
+python-django-compressor mos-dat
+python-django-floppyforms mos-dat
+python-django-horizon mos-dat
+python-django-horizon-doc mos-dat
+python-django-openstack-auth mos-openstack
+python-django-pyscss mos-dat
+python-dmidecode 
+python-dns mos-dat
+python-docker-py mos-dat
+python-docutils mos-dat
+python-dogpile-cache mos-dat
+python-dogpile-core mos-dat
+python-ecdsa 
+python-ethtool 
+python-eventlet mos-dat
+python-fabric mos-dat
+python-flask mos-dat
+python-fuelclient mos-dat
+python-funcparserlib 
+python-futures mos-dat
+python-fysom 
+python-gevent mos-dat
+python-gflags mos-dat
+python-glance mos-dat
+python-glance-store mos-dat
+python-glanceclient mos-dat
+python-greenlet mos-dat
+python-greenlet-devel mos-dat
+python-happybase mos-dat
+python-heatclient mos-dat
+python-html5lib mos-dat
+python-httplib2 mos-dat
+python-imaging 
+python-imgcreate mos-dat
+python-importlib mos-dat
+python-iniparse 
+python-ipaddr mos-dat
+python-iso8601 mos-dat
+python-itsdangerous mos-dat
+python-iwlib 
+python-jinja2 mos-dat
+python-jsonpatch mos-dat
+python-jsonpath-rw mos-dat
+python-jsonpointer mos-dat
+python-jsonrpclib mos-dat
+python-jsonschema mos-dat
+python-kazoo mos-dat
+python-keyring mos-dat
+python-keystone mos-dat
+python-keystoneclient mos-dat
+python-keystoneclient-doc mos-dat
+python-keystonemiddleware mos-dat
+python-kombu mos-dat
+python-ldap 
+python-ldappool mos-dat
+python-lesscpy mos-dat
+python-libguestfs mos-dat
+python-libs 
+python-lockfile mos-dat
+python-logutils mos-dat
+python-lxml mos-dat
+python-mako mos-dat
+python-markdown mos-dat
+python-MarkupSafe mos-dat
+python-meld3 mos-dat
+python-memcached mos-dat
+python-migrate mos-dat
+python-msgpack mos-dat
+python-muranoclient mos-dat
+python-netaddr mos-dat
+python-netifaces mos-dat
+python-networkx-core mos-dat
+python-neutron mos-dat
+python-neutronclient mos-dat
+python-nose mos-dat
+python-nose-cover3 mos-dat
+python-nova mos-dat
+python-novaclient mos-dat
+python-novaclient-doc mos-dat
+python-nwdiag 
+python-oauthlib mos-dat
+python-openstackclient mos-openstack
+python-ordereddict mos-dat
+python-oslo-config mos-dat
+python-oslo-config-doc mos-dat
+python-oslo-db mos-dat
+python-oslo-i18n mos-dat
+python-oslo-messaging mos-dat
+python-oslo-rootwrap mos-dat
+python-oslo-serialization mos-dat
+python-oslo-utils mos-dat
+python-oslo-vmware mos-dat
+python-osnagios mos-dat
+python-osprofiler mos-dat
+python-paramiko mos-dat
+python-passlib mos-dat
+python-paste mos-dat
+python-paste-deploy mos-dat
+python-paste-deploy1.5 mos-dat
+python-pbr mos-dat
+python-pecan mos-dat
+python-pip mos-dat
+python-ply mos-dat
+python-posix_ipc mos-dat
+python-PrettyTable mos-dat
+python-psutil mos-dat
+python-psycopg2 mos-dat
+python-py mos-dat
+python-pyasn1 
+python-pycadf mos-dat
+python-pycurl 
+python-pygments 
+python-pylibmc mos-dat
+python-pymemcache mos-dat
+python-pymongo mos-dat
+python-pypcap mos-dat
+python-pyscss mos-dat
+python-pyudev mos-dat
+python-qpid 
+python-qpid-qmf 
+python-rabbit mos-dat
+python-reportlab 
+python-repoze-lru mos-dat
+python-requests mos-dat
+python-retrying mos-dat
+python-rfc3986 mos-dat
+python-rhsm mos-dat
+python-routes mos-dat
+python-routes1.12 mos-dat
+python-rtslib-fb mos-dat
+python-saharaclient mos-dat
+python-saslwrapper 
+python-seqdiag 
+python-setuptools mos-dat
+python-simplegeneric mos-dat
+python-simplejson mos-dat
+python-singledispatch mos-dat
+python-six mos-dat
+python-sphinx10 mos-dat
+python-sphinx10-doc mos-dat
+python-sqlalchemy mos-dat
+python-stevedore mos-dat
+python-suds mos-dat
+python-swiftclient mos-dat
+python-swiftclient-doc mos-dat
+python-tablib mos-dat
+python-taskflow mos-dat
+python-tempita 
+python-testresources mos-dat
+python-thrift mos-dat
+python-tooz mos-dat
+python-troveclient mos-dat
+python-unittest2 mos-dat
+python-urlgrabber 
+python-urllib3 mos-dat
+python-urwid mos-dat
+python-versiontools mos-dat
+python-virtualenv mos-dat
+python-waitress mos-dat
+python-warlock mos-dat
+python-webcolors 
+python-webob mos-dat
+python-webpy mos-dat
+python-websocket-client mos-dat
+python-websockify mos-dat
+python-webtest mos-dat
+python-werkzeug mos-dat
+python-wsgilog 
+python-wsgiref mos-dat
+python-wsme mos-dat
+python-XStatic mos-dat
+python-XStatic-Angular mos-dat
+python-XStatic-Angular-Cookies mos-dat
+python-XStatic-Angular-Mock mos-dat
+python-XStatic-Bootstrap-Datepicker mos-dat
+python-XStatic-Bootstrap-SCSS mos-dat
+python-XStatic-D3 mos-dat
+python-XStatic-Font-Awesome mos-dat
+python-XStatic-Hogan mos-dat
+python-XStatic-Jasmine mos-dat
+python-XStatic-jQuery mos-dat
+python-XStatic-JQuery-Migrate mos-dat
+python-XStatic-jquery-ui mos-dat
+python-XStatic-JQuery.quicksearch mos-dat
+python-XStatic-JQuery.TableSorter mos-dat
+python-XStatic-JSEncrypt mos-dat
+python-XStatic-QUnit mos-dat
+python-XStatic-Rickshaw mos-dat
+python-XStatic-Spin mos-dat
+python-yaql mos-dat
+python-zmq mos-dat
+pytz 
+pyxattr mos-dat
+pyxf86config 
+PyYAML mos-dat
+qemu mos-linux
+qemu-common mos-linux
+qemu-img mos-linux
+qemu-kvm mos-linux
+ql2100-firmware 
+ql2200-firmware 
+ql23xx-firmware 
+ql2400-firmware 
+ql2500-firmware 
+qpid-cpp-client 
+qpid-qmf 
+quota 
+rabbitmq-server mos-linux
+radvd 
+rbd-fuse ceph
+rdate 
+readahead 
+readline 
+redhat-logos 
+redhat-lsb-core 
+resource-agents *
+rfkill 
+rng-tools 
+rootfiles 
+rpcbind 
+rpm 
+rpm-build 
+rpm-libs 
+rpm-python 
+rst2pdf ???
+rsync 
+rsyslog 
+rsyslog-relp 
+rt61pci-firmware 
+rt73usb-firmware 
+ruby 
+ruby-augeas fuel-library
+ruby-devel 
+ruby-extlib fuel-library
+ruby-irb 
+ruby-libs 
+ruby-mysql fuel-library
+ruby-rdoc 
+ruby-rgen fuel-library
+ruby-ri 
+ruby-shadow fuel-library
+ruby21 fuel-library
+ruby21-augeas fuel-library
+ruby21-facter 
+ruby21-hiera 
+ruby21-mcollective fuel-library
+ruby21-mcollective-common fuel-library
+ruby21-nailgun-mcagents fuel-library
+ruby21-puppet 
+ruby21-rubygem-activesupport fuel-library
+ruby21-rubygem-amq-client fuel-library
+ruby21-rubygem-amq-protocol fuel-library
+ruby21-rubygem-amqp fuel-library
+ruby21-rubygem-astute fuel-library
+ruby21-rubygem-eventmachine fuel-library
+ruby21-rubygem-i18n fuel-library
+ruby21-rubygem-json fuel-library
+ruby21-rubygem-json_pure fuel-library
+ruby21-rubygem-mcollective-client fuel-library
+ruby21-rubygem-mime-types fuel-library
+ruby21-rubygem-net-ssh fuel-library
+ruby21-rubygem-net-ssh-gateway fuel-library
+ruby21-rubygem-net-ssh-multi fuel-library
+ruby21-rubygem-netaddr fuel-library
+ruby21-rubygem-open4 fuel-library
+ruby21-rubygem-openstack fuel-library
+ruby21-rubygem-Platform fuel-library
+ruby21-rubygem-popen4 fuel-library
+ruby21-rubygem-raemon fuel-library
+ruby21-rubygem-rest-client fuel-library
+ruby21-rubygem-rgen fuel-library
+ruby21-rubygem-shadow fuel-library
+ruby21-rubygem-stomp fuel-library
+ruby21-rubygem-symboltable fuel-library
+ruby21-rubygem-systemu fuel-library
+rubygem-abstract fuel-library
+rubygem-activesupport fuel-library
+rubygem-arel fuel-library
+rubygem-builder fuel-library
+rubygem-bundler fuel-library
+rubygem-bunny fuel-library
+rubygem-cstruct fuel-library
+rubygem-daemons fuel-library
+rubygem-erubis fuel-library
+rubygem-eventmachine fuel-library
+rubygem-eventmachine-doc fuel-library
+rubygem-extlib fuel-library
+rubygem-extlib-doc fuel-library
+rubygem-fastthread fuel-library
+rubygem-gem_plugin fuel-library
+rubygem-highline fuel-library
+rubygem-httpclient fuel-library
+rubygem-httpclient-doc fuel-library
+rubygem-i18n fuel-library
+rubygem-ipaddress fuel-library
+rubygem-ipaddress-doc fuel-library
+rubygem-json fuel-library
+rubygem-json_pure fuel-library
+rubygem-json_pure-doc fuel-library
+rubygem-json-doc fuel-library
+rubygem-mail fuel-library
+rubygem-mime-types fuel-library
+rubygem-mime-types-doc fuel-library
+rubygem-mixlib-authentication fuel-library
+rubygem-mixlib-cli fuel-library
+rubygem-mixlib-cli-doc fuel-library
+rubygem-mixlib-config fuel-library
+rubygem-mixlib-log fuel-library
+rubygem-mixlib-shellout fuel-library
+rubygem-moneta fuel-library
+rubygem-mongrel fuel-library
+rubygem-net-ssh fuel-library
+rubygem-net-ssh-gateway fuel-library
+rubygem-net-ssh-multi fuel-library
+rubygem-netaddr fuel-library
+rubygem-ohai fuel-library
+rubygem-openstack fuel-library
+rubygem-polyglot fuel-library
+rubygem-rack fuel-library
+rubygem-rack-mount fuel-library
+rubygem-rack-test fuel-library
+rubygem-raemon fuel-library
+rubygem-rake 
+rubygem-rdoc fuel-library
+rubygem-rest-client fuel-library
+rubygem-rethtool fuel-library
+rubygem-stomp fuel-library
+rubygem-stomp-doc fuel-library
+rubygem-symboltable fuel-library
+rubygem-systemu fuel-library
+rubygem-thin fuel-library
+rubygem-thin-doc fuel-library
+rubygem-thor fuel-library
+rubygem-treetop fuel-library
+rubygem-tzinfo fuel-library
+rubygem-uuidtools fuel-library
+rubygem-yajl-ruby fuel-library
+rubygems 
+sahara mos-dat
+samba-common 
+samba-winbind 
+samba-winbind-clients 
+saslwrapper 
+scapy mos-dat
+scipy 
+scl-utils 
+screen 
+scrub 
+scsi-target-utils mos-linux
+SDL 
+seabios-bin mos-linux
+seavgabios-bin mos-linux
+sed 
+selinux-policy 
+selinux-policy-targeted 
+send2syslog ?
+setools-libs 
+setools-libs-python 
+setserial 
+setup 
+setuptool 
+sg3_utils 
+sg3_utils-libs 
+sgabios-bin mos-linux
+sgpio 
+shadow-utils 
+shared-mime-info 
+sheepdog ???
+shotgun fuel-xxx
+slang 
+smartmontools 
+snappy *
+socat *
+sos 
+sphinxcontrib-actdiag 
+sphinxcontrib-blockdiag 
+sphinxcontrib-nwdiag 
+sphinxcontrib-seqdiag 
+spice-server 
+sqlite 
+squashfs-tools 
+strace 
+subscription-manager ???
+sudo 
+suitesparse 
+supervisor mos-dat
+sysfsutils 
+syslinux *
+sysstat 
+system-config-firewall-base 
+system-config-firewall-tui 
+system-config-keyboard 
+system-config-keyboard-base 
+system-config-network-tui 
+systemtap-runtime 
+sysvinit-tools 
+tar 
+tcl 
+tcp_wrappers 
+tcp_wrappers-libs 
+tcpdump 
+tcptraceroute mos-linux
+tcsh 
+telnet 
+tftp-server *
+time 
+tinyproxy ???
+tk 
+tmpwatch 
+tmux *
+traceroute 
+tunctl 
+tzdata 
+udev 
+unixODBC 
+unzip 
+upstart 
+urw-fonts 
+usbutils 
+usermode 
+ustr 
+util-linux-ng 
+uwsgi ?
+uwsgi-plugin-common ?
+uwsgi-plugin-python ?
+v8 mos-dat
+vconfig 
+vim-common 
+vim-enhanced 
+vim-minimal 
+virt-what 
+web-assets-filesystem ?
+wget 
+whatmask 
+which 
+wireless-tools 
+words 
+wxBase ???
+wxGTK ???
+wxGTK-gl ???
+xdg-utils 
+xfsprogs 
+xinetd 
+xmlrpc-c 
+xmlrpc-c-client 
+xorg-x11-drv-ati-firmware 
+xorg-x11-font-utils 
+xz 
+xz-libs 
+xz-lzma-compat 
+yajl 
+yum 
+yum-metadata-parser 
+yum-plugin-fastestmirror 
+yum-plugin-priorities 
+yum-plugin-security 
+yum-utils 
+zabbix ?
+zabbix-agent ?
+zabbix-sender ?
+zabbix-server ?
+zabbix-server-mysql ?
+zabbix-server-pgsql ?
+zabbix-web ?
+zabbix-web-mysql ?
+zabbix-web-pgsql ?
+zd1211-firmware 
+zeromq ???
+zeromq3 ???
+zip 
+zlib 
+zlib-devel 

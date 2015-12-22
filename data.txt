@@ -1,0 +1,1640 @@
+Name	Summary	Owner
+ami-creator	A simple tool based on python-imgcreate to create Fedora/Red Hat style images that can be used as an AMI in EC2.	mos-linux
+atop	An advanced interactive monitor to view the load on system and process level	mos-linux
+b43-fwcutter	Firmware extraction tool for Broadcom wireless driver	
+b43-openfwwf	Open firmware for some Broadcom 43xx series WLAN chips	
+bfa-firmware	Brocade Fibre Channel HBA Firmware	
+btparser	Parser and analyzer for backtraces produced by GDB	
+busybox	Statically linked binary providing simplified versions of system commands	
+c-ares19	A library that performs asynchronous DNS operations	?
+ceph	User space components of the Ceph file system	ceph
+ceph-common	Ceph Common	ceph
+ceph-common	Ceph Common	ceph
+ceph-deploy	Admin and deploy tool for Ceph	ceph
+ceph-radosgw	Rados REST gateway	ceph
+ceph-test	Ceph benchmarks and test tools	ceph
+cirros-testvm	CirrOS is a Tiny OS that specializes in running on a cloud	mos-linux
+cirros-testvm-mellanox	MELLANOX OFED light package	mos-linux
+cirros-testvmware	CirrOS is a Tiny OS that specializes in running on a cloud (VMDK format)	partner
+cloog-ppl	Parma Polyhedra Library backend (ppl) based version of the Cloog binaries	
+cluster-glue-libs	Reusable cluster libraries	?
+cobbler	Boot server configurator	fuel-xxx
+cobbler-web	Web interface for Cobbler	fuel-xxx
+compat-readline5	A library for editing typed command lines	
+conntrack-tools	Tools to manipulate netfilter connection tracking table	mos-linux
+ConsoleKit	System daemon for tracking users, sessions and seats	
+ConsoleKit-libs	ConsoleKit libraries	
+coreutils-libs	Libraries for coreutils	
+cpufreq-init	cpufreq-init	mos-linux
+cpuspeed	CPU frequency adjusting daemon	
+crmsh	High Availability cluster command-line interface	fuel-library
+daemonize	Run a command as a Unix daemon	fuel-library
+dash	Small and fast POSIX-compliant shell	
+db4	The Berkeley DB database library (version 4) for C	
+db4-cxx	The Berkeley DB database library (version 4) for C++	
+db4-devel	C development files for the Berkeley DB (version 4) library	
+db4-utils	Command line tools for managing Berkeley DB (version 4) databases	
+debmirror	Debian partial mirror script, with ftp and package pool support	fuel-xxx
+debootstrap	Debian GNU/Linux bootstrapper	?
+disktype	Detect the content format of a disk or disk image	?
+Django14	A high-level Python Web framework	mos-dat
+dkms	Dynamic Kernel Module Support Framework	?
+dnsmasq	A lightweight DHCP/caching DNS server	mos-linux
+dnsmasq-utils	Utilities for manipulating DHCP server leases	mos-linux
+dpkg	Package maintenance system for Debian Linux	?
+dpkg-devel	Debian package development tools	?
+dracut-kernel	Metapackage to build generic initramfs with dracut with only kernel modules	
+eggdbus	Experimental D-Bus bindings for GObject	
+eject	A program that ejects removable media using software control	
+erlang	General-purpose programming language and runtime environment	?
+erlang-appmon	A utility used to supervise Applications executing on several Erlang nodes	?
+erlang-asn1	Provides support for Abstract Syntax Notation One	?
+erlang-common_test	A portable framework for automatic testing	?
+erlang-compiler	A byte code compiler for Erlang which produces highly compact code	?
+erlang-cosEvent	Orber OMG Event Service	?
+erlang-cosEventDomain	Orber OMG Event Domain Service	?
+erlang-cosFileTransfer	Orber OMG File Transfer Service	?
+erlang-cosNotification	Orber OMG Notification Service	?
+erlang-cosProperty	Orber OMG Property Service	?
+erlang-cosTime	Orber OMG Timer and TimerEvent Service	?
+erlang-cosTransactions	Orber OMG Transaction Service	?
+erlang-crypto	Cryptographical support	?
+erlang-debugger	A debugger for debugging and testing of Erlang programs	?
+erlang-dialyzer	A DIscrepany AnaLYZer for ERlang programs	?
+erlang-diameter	Diameter (RFC 3588) library	?
+erlang-doc	Erlang documentation	?
+erlang-docbuilder	Tool for generating HTML documentation for applications	?
+erlang-edoc	A utility used to generate documentation out of tags in source files	?
+erlang-erl_docgen	A utility used to generate erlang HTML documentation	?
+erlang-erl_interface	Low level interface to C	?
+erlang-erts	Functionality necessary to run the Erlang System itself	?
+erlang-et	An event tracer for Erlang programs	?
+erlang-eunit	Support for unit testing	?
+erlang-examples	Examples for some Erlang modules	?
+erlang-gs	A library for Tcl/Tk support in Erlang	?
+erlang-hipe	High Performance Erlang	?
+erlang-ic	IDL compiler	?
+erlang-inets	A set of services such as a Web server and a ftp client etc	?
+erlang-inviso	A trace tool for both development and delivered systems	?
+erlang-jinterface	A library for accessing Java from Erlang	?
+erlang-kernel	Main erlang library	?
+erlang-megaco	Megaco/H.248 support library	?
+erlang-mnesia	A heavy duty real-time distributed database	?
+erlang-observer	A set of tools for tracing and investigation of distributed systems	?
+erlang-odbc	A library for unixODBC support in Erlang	?
+erlang-orber	A CORBA Object Request Broker	?
+erlang-os_mon	A monitor which allows inspection of the underlying operating system	?
+erlang-otp_mibs	SNMP management information base for Erlang/OTP nodes	?
+erlang-parsetools	A set of parsing and lexical analysis tools	?
+erlang-percept	A concurrency profiler tool	?
+erlang-pman	A graphical process manager used to inspect Erlang processes	?
+erlang-public_key	API to public key infrastructure	?
+erlang-reltool	A release management tool	?
+erlang-runtime_tools	A set of tools to include in a production system	?
+erlang-sasl	The System Architecture Support Libraries	?
+erlang-snmp	Simple Network Management Protocol (SNMP) support	?
+erlang-ssh	Secure Shell application with sftp and ssh support	?
+erlang-ssl	Secure Socket Layer support	?
+erlang-stdlib	The Erlang standard libraries	?
+erlang-syntax_tools	A set of tools for dealing with erlang sources	?
+erlang-test_server	The OTP Test Server	?
+erlang-toolbar	A tool bar simplifying access to the Erlang tools	?
+erlang-tools	A set of programming tools including a coverage analyzer etc	?
+erlang-tv	An ETS and MNESIA graphical table visualizer	?
+erlang-typer	TYPe annotator for ERlang programs	?
+erlang-webtool	A tool that simplifying the use of web based Erlang tools	?
+erlang-wx	A library for wxWidgets support in Erlang	?
+erlang-xmerl	Provides support for XML 1.0	?
+eswitchd	Mellanox eSwitch Daemon	?
+facter	Ruby module for collecting simple facts about a host operating system	?
+fcgiwrap	Simple FastCGI wrapper for CGI scripts	?
+fdupes	Identifying or deleting duplicate files	?
+febootstrap-supermin-helper	Runtime support for febootstrap	?
+fencing-agent	Fencing agent	?
+fuel-createmirror	CLI script for MOS/upstream mirroring	fuel-python
+fuel-dockerctl	Fuel project utilities for Docker container management tool	fuel-python
+fuel-ostf	cloud computing testing	fuel-python
+fuel-utils	Set of tool for maintance installed Openstack cluster	fuel-python
+fuelmenu	Console utility for pre-configuration of Fuel server	fuel
+galera	Galera: a synchronous multi-master wsrep provider (replication engine)	?
+gperftools-libs	Libraries provided by gperftools	?
+gpxe-bootimgs	Network boot loader images in bootable USB, CD, floppy and GRUB formats	
+hal	Hardware Abstraction Layer	
+hal-info	Device information files for HAL	
+hal-libs	Libraries for accessing HAL	
+hiera	A simple pluggable Hierarchical Database	?
+hpsa	hpsa kernel module	mos-linux
+htop	Interactive process viewer	?
+http-parser	HTTP request/response parser for C	?
+iksemel	An XML parser library designed for Jabber applications	?
+iperf3	Measurement tool for TCP/UDP bandwidth performance	mos-linux
+ipw2100-firmware	Firmware for Intel® PRO/Wireless 2100 network adaptors	
+ipw2200-firmware	Firmware for Intel® PRO/Wireless 2200 network adaptors	
+ipxe-roms-qemu	Network boot loader roms supported by QEMU, .rom format	mos-linux
+json-c	A JSON implementation in C	?
+kernel-firmware	Firmware files used by the Linux kernel	mos-linux
+kernel-lt	The Linux kernel. (The core of any Linux-based operating system.)	mos-linux
+kernel-lt-devel	Development package for building kernel modules to match the kernel.	mos-linux
+kernel-lt-headers	Header files for the Linux kernel for use by glibc	mos-linux
+kmod-openvswitch	openvswitch kernel module(s)	mos-linux
+kmod-openvswitch-lt	Open vSwitch kernel module	mos-linux
+leveldb	A fast and lightweight key/value database library by Google	ceph
+libcephfs1	Ceph distributed file system client library	ceph
+libertas-usb8388-firmware	Firmware for Marvell Libertas USB 8388 Network Adapter	mos-linux
+libevent-headers	Header file for development  for libevent	
+libewf	Library for the Expert Witness Compression Format (EWF)	?
+libfcgi	FastCGI library	?
+libgssglue	Generic Security Services Application Programming Interface Library	
+libmongodb	MongoDB shared libraries	?
+libnih	Lightweight application development library	
+librados2	RADOS distributed object store client library	ceph
+librbd1	RADOS block device client library	ceph
+libudev	Dynamic library to access udev device information	
+libunwind	An unwinding library	?
+libusb	A library which allows userspace access to USB devices	
+libusbx	Library for accessing USB devices	mos-linux
+libuv	Platform layer for node.js	?
+libuv-devel	Development libraries for libuv	?
+linux-firmware	Firmware files used by the Linux kernel	mos-linux
+lldpad-libs	Libraries for communication with lldpad	
+lrzip	Compression program optimized for large files	mos-linux
+lshell	A Python-based limited shell	?
+lxc	Linux Resource Containers	mos-linux
+lxc-libs	Runtime library files for lxc	mos-linux
+MAKEDEV	A program used for creating device files in /dev	
+mcollective	Application Server for hosting Ruby code on any capable middleware	fuel-python
+mcollective-client	Client tools for the mcollective Application Server	?
+mcollective-common	Common libraries for the mcollective clients and servers	?
+megaraid_sas	megaraid_sas kernel module	mos-linux
+mesa-dri-filesystem	Mesa DRI driver filesystem	
+mesa-dri1-drivers	Mesa graphics libraries	
+mesa-libGLU	Mesa libGLU runtime library	
+mingetty	A compact getty program for virtual consoles only	
+mlnx-ofed-light	MELLANOX OFED light package	partner
+mod_fastcgi	Apache module that enables FastCGI	
+mongodb	High-performance, schema-free document-oriented database	mos-dat
+mongodb-server	MongoDB server, sharding server and support scripts	mos-dat
+monit	Process monitor and restart utility	?
+murano	OpenStack Murano API and Engine	mos-dat
+murano-dashboard	OpenStack Murano Dashboard	mos-dat
+MySQL-client-wsrep	MySQL - Client	
+mysql-libs	The shared libraries required for MySQL clients	
+MySQL-python	An interface to MySQL	mos-dat
+MySQL-server-wsrep	MySQL: a very fast and reliable SQL database server	
+MySQL-shared-wsrep	MySQL - Shared libraries	
+nagios-common	Provides common directories, uid and gid among nagios-related packages	?
+nailgun	Nailgun package	fuel-python
+nailgun-agent	Nailgun startup agent	fuel-python
+nailgun-mcagents	MCollective Agents	fuel-python
+nailgun-net-check	Network checking package for CentOS6.x	fuel-python
+nc	Reads and writes data across network connections using TCP or UDP	
+nfs-utils-lib	Network File System Support Library	
+nginx	A high performance web server and reverse proxy server	?
+nodejs	JavaScript runtime	mos-dat
+nodejs-less	Less.js The dynamic stylesheet language	mos-dat
+novnc	VNC client using HTML5 (Web Sockets, Canvas) with encryption support	mos-linux
+nrpe	Host/service/network monitoring agent for Nagios	?
+openpgm	An implementation of the PGM reliable multicast protocol	?
+openstack-ceilometer-alarm	OpenStack ceilometer alarm services	?
+openstack-ceilometer-api	OpenStack ceilometer API service	mos-dat
+openstack-ceilometer-central	OpenStack ceilometer central agent	?
+openstack-ceilometer-collector	OpenStack ceilometer collector	mos-dat
+openstack-ceilometer-common	Components common to all OpenStack ceilometer services	mos-dat
+openstack-ceilometer-compute	OpenStack ceilometer compute agent	?
+openstack-ceilometer-notification	OpenStack ceilometer notification agent	?
+openstack-cinder	OpenStack Volume service	?
+openstack-dashboard	Openstack web user interface reference implementation	mos-dat
+openstack-glance	OpenStack Image Service	mos-dat
+openstack-heat-api	The Heat API	mos-dat
+openstack-heat-api-cfn	Heat CloudFormation API	mos-dat
+openstack-heat-api-cloudwatch	Heat CloudWatch API	mos-dat
+openstack-heat-common	Heat common	mos-dat
+openstack-heat-docker	The Heat Docker resource	mos-dat
+openstack-heat-engine	The Heat engine	mos-dat
+openstack-keystone	OpenStack Identity Service	mos-dat
+openstack-neutron	OpenStack Networking Service	mos-dat
+openstack-neutron-bigswitch	Neutron Big Switch plugin	mos-dat
+openstack-neutron-brocade	Neutron Brocade plugin	mos-dat
+openstack-neutron-cisco	Neutron Cisco plugin	mos-dat
+openstack-neutron-hyperv	Neutron Hyper-V plugin	mos-dat
+openstack-neutron-ibm	Neutron IBM plugin	mos-dat
+openstack-neutron-linuxbridge	Neutron linuxbridge plugin	mos-dat
+openstack-neutron-mellanox	Neutron Mellanox plugin	mos-dat
+openstack-neutron-metering-agent	Neutron bandwidth metering agent	mos-dat
+openstack-neutron-midonet	Neutron MidoNet plugin	mos-dat
+openstack-neutron-ml2	Neutron ML2 plugin	mos-dat
+openstack-neutron-nec	Neutron NEC plugin	mos-dat
+openstack-neutron-nuage	Neutron Nuage plugin	mos-dat
+openstack-neutron-ofagent	Neutron ofagent plugin from ryu project	mos-dat
+openstack-neutron-oneconvergence-nvsd	Neutron One Convergence NVSD plugin	mos-dat
+openstack-neutron-openvswitch	Neutron openvswitch plugin	mos-dat
+openstack-neutron-plumgrid	Neutron PLUMgrid plugin	mos-dat
+openstack-neutron-ryu	Neutron Ryu plugin	mos-dat
+openstack-neutron-vmware	Neutron VMWare NSX support	mos-dat
+openstack-neutron-vpn-agent	Neutron VPNaaS agent	mos-dat
+openstack-nova	OpenStack Compute (nova)	mos-dat
+openstack-nova-api	OpenStack Nova API services	mos-dat
+openstack-nova-cells	OpenStack Nova Cells services	mos-dat
+openstack-nova-cert	OpenStack Nova certificate management service	mos-dat
+openstack-nova-common	Components common to all OpenStack Nova services	mos-dat
+openstack-nova-compute	OpenStack Nova Virtual Machine control service	mos-dat
+openstack-nova-conductor	OpenStack Nova Conductor services	mos-dat
+openstack-nova-console	OpenStack Nova console access services	mos-dat
+openstack-nova-network	OpenStack Nova Network control service	mos-dat
+openstack-nova-novncproxy	OpenStack Nova noVNC proxy service	mos-dat
+openstack-nova-objectstore	OpenStack Nova simple object store service	mos-dat
+openstack-nova-scheduler	OpenStack Nova VM distribution service	mos-dat
+openstack-swift	OpenStack Object Storage (Swift)	?
+openstack-swift-account	Account services for Swift	?
+openstack-swift-container	Container services for Swift	?
+openstack-swift-object	Object services for Swift	?
+openstack-swift-plugin-swift3	The swift3 plugin for Openstack Swift	?
+openstack-swift-proxy	A proxy server for Swift	?
+openstack-utils	Helper utilities for OpenStack services	?
+openvswitch	Open vSwitch daemon/database/utilities	
+pam_passwdqc	Pluggable password quality-control module	
+pcapy	A Python interface to libpcap	?
+pcmciautils	PCMCIA utilities and initialization programs	
+percona-toolkit	Essential command-line utilities for MySQL	mos-linux
+percona-xtrabackup	XtraBackup online backup for MySQL / InnoDB	mos-linux
+perl-Compress-Zlib	A module providing Perl interfaces to the zlib compression library	
+perl-Config-General	Generic configuration module for Perl	?
+perl-DBD-MySQL	A MySQL interface for perl	?
+perl-hivex	Perl bindings for hivex	?
+perl-IO-Compress-Base	Base Class for IO::Compress modules	
+perl-IO-Compress-Zlib	Perl interface to allow reading and writing of gzip and zip data	
+perl-LockFile-Simple	Simple file locking scheme	?
+postgresql	PostgreSQL client programs and libraries	?
+postgresql-devel	PostgreSQL development header files and libraries	?
+postgresql-libs	The shared libraries required for any PostgreSQL clients	?
+postgresql-server	The programs needed to create and run a PostgreSQL server	?
+ppl	The Parma Polyhedra Library: a library of numerical abstractions	
+pssh	Parallel SSH to control large numbers of Machines simultaneously	?
+puppet	A network tool for managing many disparate systems	?
+pydot-ng	Python interface to Graphviz's Dot	fuel-xxx
+pyOpenSSL	Python wrapper module around the OpenSSL library	mos-dat
+pyparsing	An object-oriented approach to text processing	mos-dat
+pyparsing-doc	Documentation for pyparsing	mos-dat
+pysendfile	Python interface to the sendfile(2) system call	mos-dat
+pysnmp	SNMP engine written in Python	mos-dat
+python-actdiag	actdiag generate activity-diagram image file from spec-text file.	?
+python-alembic	Database migration tool for SQLAlchemy	mos-dat
+python-amqp	Low-level AMQP client for Python (fork of amqplib)	mos-dat
+python-amqplib	Client library for AMQP	mos-dat
+python-anyjson	Wraps the best available JSON implementation available	mos-dat
+python-argparse	Optparse inspired command line parser for Python	mos-dat
+python-babel	Library for internationalizing Python applications	mos-dat
+python-barbicanclient	Сlient for the Barbican Key Management API	mos-dat
+python-beautifulsoup4	HTML/XML parser for quick-turnaround applications like screen-scraping	mos-dat
+python-blockdiag	blockdiag generate block-diagram image file from spec-text file.	?
+python-bson	Python bson library	mos-dat
+python-ceilometer	OpenStack ceilometer python libraries	mos-dat
+python-ceilometerclient	Python API and CLI for OpenStack Ceilometer	mos-dat
+python-ceph	Python libraries for the Ceph distributed filesystem	ceph
+python-cherrypy	Pythonic, object-oriented web development framework	?
+python-cinder	OpenStack Volume Python libraries	mos-dat
+python-cinderclient	Python API and CLI for OpenStack Cinder	mos-dat
+python-cliff	Command Line Interface Formulation Framework	mos-dat
+python-cliff-tablib	Tablib formatters for cliff	mos-dat
+python-cloudfiles	Python language bindings for Rackspace CloudFiles API	mos-dat
+python-cm-api	Python cloudera client	mos-dat
+python-cmd2	Extra features for standard library's cmd module	mos-dat
+python-croniter	Iteration for datetime object with cron like format	mos-dat
+python-d2to1	Allows using distutils2-like setup.cfg files with setup.py	mos-dat
+python-daemonize	Library to enable your code run as a daemon process on Unix-like systems	?
+python-distribute	distribute legacy wrapper	
+python-django	A high-level Python Web framework	mos-dat
+python-django-appconf	A helper class for handling configuration defaults of packaged apps gracefully	mos-dat
+python-django-compressor	Compresses linked and inline JavaScript or CSS into single cached files	mos-dat
+python-django-floppyforms	Full control of form rendering in the templates	mos-dat
+python-django-horizon	Django application for talking to Openstack	mos-dat
+python-django-horizon-doc	Documentation for Django Horizon	mos-dat
+python-django-openstack-auth	Django authentication backend for OpenStack Keystone	mos-dat
+python-django-pyscss	Makes it easier to use PySCSS in Django	mos-dat
+python-dns	DNS toolkit for Python	mos-dat
+python-dogpile-cache	A caching front-end based on the Dogpile lock	mos-dat
+python-dogpile-core	A 'dogpile' lock, typically used as a component of a larger caching solution	mos-dat
+python-ecdsa	ECDSA cryptographic signature library (pure python)	?
+python-eventlet	Highly concurrent networking library	mos-dat
+python-fabric	Fabric is a simple, Pythonic tool for remote execution and deployment	mos-dat
+python-flask	A micro-framework for Python based on Werkzeug, Jinja 2 and good intentions	mos-dat
+python-fuelclient	Console utility for working with fuel rest api	mos-dat
+python-funcparserlib	Recursive descent parsing library based on functional combinators	
+python-futures	Backport of the concurrent.futures package from Python 3.2	mos-dat
+python-fysom	pYthOn Finite State Machine	
+python-gevent	A coroutine-based Python networking library	mos-dat
+python-gflags	Commandline flags module for Python	?
+python-glance	Glance Python libraries	mos-dat
+python-glance-store	glance_store	mos-dat
+python-glanceclient	Python API and CLI for OpenStack Glance	mos-dat
+python-greenlet	Lightweight in-process concurrent programming	mos-dat
+python-greenlet-devel	C development headers for python-greenlet	mos-dat
+python-happybase	A developer-friendly Python library to interact with Apache HBase	mos-dat
+python-heatclient	Python API and CLI for OpenStack Heat	mos-dat
+python-html5lib	A python based HTML parser/tokenizer	mos-dat
+python-httplib2	A comprehensive HTTP client library	mos-dat
+python-imaging	Python's own image processing library	
+python-imgcreate	Python modules for building system images	mos-dat
+python-importlib	Backport of importlib.import_module() from Python 2.7	mos-dat
+python-ipaddr	A python library for working with IP addresses, both IPv4 and IPv6	mos-dat
+python-iso8601	Simple module to parse ISO 8601 dates	mos-dat
+python-itsdangerous	Python library for passing trusted data to untrusted environments	mos-dat
+python-iwlib	Wireless settings python bindings	
+python-jinja2	General purpose template engine	mos-dat
+python-jsonpath-rw	Extended implementation of JSONPath for Python	mos-dat
+python-jsonrpclib	Implementation of the JSON-RPC v2.0 specification as a client library	mos-dat
+python-jsonschema	An implementation of JSON-Schema validation for Python	mos-dat
+python-kazoo	Higher level Python Zookeeper client	mos-dat
+python-keyring	Python 2 library to store and access passwords safely	mos-dat
+python-keystone	Keystone Python libraries	mos-dat
+python-keystoneclient	Client library for OpenStack Identity API	mos-dat
+python-keystoneclient-doc	Documentation for OpenStack Identity API Client	mos-dat
+python-keystonemiddleware	Middleware for OpenStack Identity	mos-dat
+python-kombu	AMQP Messaging Framework for Python	mos-dat
+python-ldappool	A connection pool for python-ldap	mos-dat
+python-lesscpy	Lesscss compiler	mos-dat
+python-libguestfs	Python bindings for libguestfs	mos-dat
+python-lockfile	A platform-independent file locking module	mos-dat
+python-logutils	Logging utilities	mos-dat
+python-lxml	ElementTree-like Python bindings for libxml2 and libxslt	mos-dat
+python-mako	Mako template library for Python	mos-dat
+python-MarkupSafe	Implements a XML/HTML/XHTML Markup safe string for Python	mos-dat
+python-meld3	HTML/XML templating system for Python	?
+python-memcached	A Python memcached client library	mos-dat
+python-migrate	Schema migration tools for SQLAlchemy	mos-dat
+python-msgpack	A Python MessagePack (de)serializer	mos-dat
+python-muranoclient	python-muranoclient	mos-dat
+python-netaddr	Pythonic manipulation of IPv4, IPv6, CIDR, EUI and MAC network addresses	mos-dat
+python-netifaces	Python library to retrieve information about network interfaces	mos-dat
+python-networkx-core	Creates and Manipulates Graphs and Networks	mos-dat
+python-neutron	Neutron Python libraries	mos-dat
+python-neutronclient	Python API and CLI for OpenStack Neutron	mos-dat
+python-nose-cover3	Coverage 3.x support for Nose	mos-dat
+python-nova	Nova Python libraries	mos-dat
+python-novaclient	Python API and CLI for OpenStack Nova	mos-dat
+python-novaclient-doc	Documentation for OpenStack Nova API Client	mos-dat
+python-nwdiag	nwdiag generate network-diagram image file from spec-text file.	
+python-oauthlib	An implementation of the OAuth request-signing logic	mos-dat
+python-openstackclient	Client library for OpenStack Identity API	mos-dat
+python-ordereddict	Implementation of Python 2.7's OrderedDict	mos-dat
+python-oslo-config	OpenStack common configuration library	mos-dat
+python-oslo-config-doc	Documentation for OpenStack common configuration library	mos-dat
+python-oslo-db	oslo.db library	mos-dat
+python-oslo-i18n	OpenStack i18n library	mos-dat
+python-oslo-messaging	OpenStack common messaging library	mos-dat
+python-oslo-rootwrap	Oslo Rootwrap	mos-dat
+python-oslo-serialization	OpenStack oslo.serialization library	mos-dat
+python-oslo-utils	OpenStack Oslo Utility library	mos-dat
+python-oslo-vmware	Oslo VMware library for OpenStack projects	mos-dat
+python-osnagios	Nagios plugins for OpenStack	mos-dat
+python-osprofiler	OpenStack Profiler Library	mos-dat
+python-paramiko	SSH2 protocol library for python	mos-dat
+python-passlib	Comprehensive password hashing framework supporting over 20 schemes	mos-dat
+python-paste	Tools for using a Web Server Gateway Interface stack	mos-dat
+python-paste-deploy	Load, configure, and compose WSGI applications and servers	mos-dat
+python-paste-deploy1.5	Load, configure, and compose WSGI applications and servers	mos-dat
+python-pbr	Python Build Reasonableness	mos-dat
+python-pecan	A lean WSGI object-dispatching web framework	mos-dat
+python-pip	A tool for installing and managing Python packages	mos-dat
+python-ply	Python Lex-Yacc	mos-dat
+python-posix_ipc	POSIX IPC primitives (semaphores and shared memory) for Python	mos-dat
+python-PrettyTable	Library for displaying tabular data in a visually appealing ASCII format	mos-dat
+python-psutil	A process and system utilities module for Python	mos-dat
+python-psycopg2	Python-PostgreSQL Database Adapter	mos-dat
+python-py	Library with cross-python path, ini-parsing, io, code, log facilities	mos-dat
+python-pycadf	DMTF Cloud Audit (CADF) data model	mos-dat
+python-pylibmc	Memcached client for Python	mos-dat
+python-pymemcache	A comprehensive, fast, pure Python memcached client	mos-dat
+python-pymongo	Python driver for MongoDB	mos-dat
+python-pypcap	Simplified object-oriented Python extension module for libpcap	mos-dat
+python-pyscss	A Scss compiler for Python	mos-dat
+python-pyudev	A libudev binding	mos-dat
+python-qpid	Python client library for AMQP	mos-dat
+python-qpid-qmf	Python QMF library for Apache Qpid	mos-dat
+python-rabbit	A Pythonic interface to the RabbitMQ Management HTTP API	mos-dat
+python-repoze-lru	A tiny LRU cache implementation and decorator	mos-dat
+python-requests	HTTP library, written in Python, for human beings	mos-dat
+python-retrying	General-purpose retrying library in Python.	mos-dat
+python-rfc3986	rfc3986	mos-dat
+python-rhsm	A Python library to communicate with a Red Hat Unified Entitlement Platform	mos-dat
+python-routes	Rails-like routes for Python	mos-dat
+python-routes1.12	Rails-like routes for Python	mos-dat
+python-rtslib-fb	Python library for configuring the Linux kernel-based multiprotocol SCSI target (LIO)	mos-dat
+python-saharaclient	Python saharaclient	mos-dat
+python-saslwrapper	Python bindings for saslwrapper.	?
+python-seqdiag	seqdiag generate sequence-diagram image file from spec-text file.	
+python-setuptools	A collection of enhancements to the python distutils	mos-dat
+python-simplegeneric	Simple generic functions (similar to Python's own len(), pickle.dump(), etc.)	mos-dat
+python-simplejson	Simple, fast, extensible JSON encoder/decoder for Python	mos-dat
+python-singledispatch	This library brings functools.singledispatch from Python 3.4 to Python 2.6-3.3	mos-dat
+python-six	Python 2 and 3 compatibility utilities	mos-dat
+python-sphinx10	Python documentation generator	mos-dat
+python-sphinx10-doc	Documentation for python-sphinx10	mos-dat
+python-sqlalchemy	Modular and flexible ORM library for python	mos-dat
+python-sqlalchemy	Modular and flexible ORM library for python	mos-dat
+python-stevedore	Manage dynamic plugins for Python applications	mos-dat
+python-suds	A python SOAP client	mos-dat
+python-swiftclient	Client Library for OpenStack Object Storage API	mos-dat
+python-swiftclient-doc	Documentation for OpenStack Object Storage API Client	mos-dat
+python-tablib	Format agnostic tabular data library (XLS, JSON, YAML, CSV)	mos-dat
+python-taskflow	Taskflow structured state management library	mos-dat
+python-testresources	Testresources, a pyunit extension for managing expensive test resources	mos-dat
+python-thrift	Python bindings for the Apache Thrift RPC system	mos-dat
+python-tooz	Coordination library for distributed systems.	mos-dat
+python-troveclient	Client library for OpenStack DBaaS API	mos-dat
+python-unittest2	Backport of new unittest features for Python 2.7 to Python 2.4+	mos-dat
+python-urwid	Console user interface library	mos-dat
+python-versiontools	Smart replacement for plain tuple used in __version__	mos-dat
+python-waitress	Waitress WSGI server	mos-dat
+python-warlock	Python object model built on top of JSON schema	mos-dat
+python-webcolors	A library for working with color names and color value formats defined by the HTML and CSS specifications for use in documents on the Web.	
+python-webob	WSGI request and response object	mos-dat
+python-webpy	A simple web framework for Python	mos-dat
+python-websocket-client	WebSocket client for python	mos-dat
+python-websockify	WSGI based adapter for the Websockets protocol	mos-dat
+python-webtest	Helper to test WSGI applications	mos-dat
+python-werkzeug	The Swiss Army knife of Python web development	mos-dat
+python-wsgilog	WSGI logging and event reporting middleware.	
+python-wsgiref	WSGI (PEP 333) Reference Library	mos-dat
+python-wsme	Web Services Made Easy	mos-dat
+python-XStatic	XStatic base package with minimal support code	mos-dat
+python-XStatic-Angular	Angular 1.2.1.1 (XStatic packaging standard)	mos-dat
+python-XStatic-Angular-Cookies	Angular-Cookies 1.2.1.1 (XStatic packaging standard)	mos-dat
+python-XStatic-Angular-Mock	Angular-Mock 1.2.1.1 (XStatic packaging standard)	mos-dat
+python-XStatic-Bootstrap-Datepicker	Bootstrap-Datepicker 1.3.1.0 (XStatic packaging standard)	mos-dat
+python-XStatic-Bootstrap-SCSS	Bootstrap-SCSS (XStatic packaging standard)	mos-dat
+python-XStatic-D3	D3 3.1.6.2 (XStatic packaging standard)	mos-dat
+python-XStatic-Font-Awesome	Font-Awesome 4.1.0.0 (XStatic packaging standard)	mos-dat
+python-XStatic-Hogan	Hogan 2.0.0.2 (XStatic packaging standard)	mos-dat
+python-XStatic-Jasmine	jQuery 1.3.1.1 (XStatic packaging standard)	mos-dat
+python-XStatic-jQuery	jQuery 1.10.2 (XStatic packaging standard)	mos-dat
+python-XStatic-JQuery-Migrate	jQuery_migrate 1.2.1.1 (XStatic packaging standard)	mos-dat
+python-XStatic-jquery-ui	jquery-ui (XStatic packaging standard)	mos-dat
+python-XStatic-JQuery.quicksearch	jQuery.quicksearch 1.2.1.1 (XStatic packaging standard)	mos-dat
+python-XStatic-JQuery.TableSorter	jQuery.tablesorter 2.14.5.1 (XStatic packaging standard)	mos-dat
+python-XStatic-JSEncrypt	QUnit (XStatic packaging standard)	mos-dat
+python-XStatic-QUnit	QUnit (XStatic packaging standard)	mos-dat
+python-XStatic-Rickshaw	Rickshaw (XStatic packaging standard)	mos-dat
+python-XStatic-Spin	Spin (XStatic packaging standard)	mos-dat
+python-yaql	Full control of form rendering in the templates	mos-dat
+python-zmq	Software library for fast, message-based applications	mos-dat
+pyxattr	Extended attributes library wrapper for Python	mos-dat
+pyxf86config	Python wrappers for libxf86config	
+PyYAML	YAML parser and emitter for Python	mos-dat
+qemu	QEMU is a FAST! processor emulator	mos-linux
+qemu-common	QEMU common files needed by all QEMU targets	mos-linux
+qemu-img	QEMU command line tool for manipulating disk images	mos-linux
+qemu-kvm	QEMU system emulator for x86	mos-linux
+ql2100-firmware	Firmware for qlogic 2100 devices	
+ql2200-firmware	Firmware for qlogic 2200 devices	
+ql23xx-firmware	Firmware for qlogic 23xx devices	
+ql2400-firmware	Firmware for qlogic 2400 devices	
+ql2500-firmware	Firmware for qlogic 2500 devices	
+qpid-cpp-client	Libraries for Qpid C++ client applications	?
+qpid-qmf	The Qpid Management Framework	?
+rabbitmq-server	The RabbitMQ server	mos-linux
+rbd-fuse	Ceph fuse-based client	ceph
+readahead	Read a preset list of files into memory	
+rst2pdf	Tool for transforming reStructuredText to PDF	?
+rt61pci-firmware	Firmware for Ralink® RT2561/RT2661 A/B/G network adaptors	
+rt73usb-firmware	Firmware for Ralink® RT2571W/RT2671 A/B/G network adaptors	
+ruby-augeas	Ruby bindings for Augeas	fuel-library
+ruby-extlib	Non-Gem support package for extlib	fuel-library
+ruby-mysql	A Ruby interface to MySQL	fuel-library
+ruby-rdoc	A tool to generate documentation from Ruby source files	
+ruby-rgen	Ruby Modeling and Generator Framework	fuel-library
+ruby-ri	Ruby interactive reference	
+ruby-shadow	Ruby bindings for shadow password access	fuel-library
+ruby21-augeas	Ruby bindings for augeas	asilenkov
+ruby21-facter	Ruby module for collecting simple facts about a host operating system	asilenkov
+ruby21-hiera	A simple pluggable Hierarchical Database	asilenkov
+ruby21-mcollective	A framework to build server orchestration or parallel job execution systems	fuel-library
+ruby21-mcollective-common	Common libraries for the mcollective clients and servers	fuel-library
+ruby21-nailgun-mcagents	MCollective Agents	fuel-library
+ruby21-puppet	A network tool for managing many disparate systems	asilenkov
+ruby21-rubygem-activesupport	A toolkit of support libraries and Ruby core extensions extracted from the Rails framework.	fuel-library
+ruby21-rubygem-amq-client	amq-client is a fully-featured, low-level AMQP 0.9.1 client	fuel-library
+ruby21-rubygem-amq-protocol	AMQP 0.9.1 encoder & decoder	fuel-library
+ruby21-rubygem-amqp	Widely used, feature-rich asynchronous RabbitMQ client with batteries included	fuel-library
+ruby21-rubygem-astute	Orchestrator for OpenStack deployment	fuel-library
+ruby21-rubygem-eventmachine	Ruby/EventMachine library	fuel-library
+ruby21-rubygem-i18n	New wave Internationalization support for Ruby	fuel-library
+ruby21-rubygem-json	A JSON implementation in Ruby	asilenkov
+ruby21-rubygem-json_pure	JSON Implementation for Ruby	asilenkov
+ruby21-rubygem-mcollective-client	Client libraries for the Mcollective Application Server	fuel-library
+ruby21-rubygem-mime-types	Return the MIME Content-Type for a given filename	fuel-library
+ruby21-rubygem-net-ssh	Net::SSH: a pure-Ruby implementation of the SSH2 client protocol.	fuel-library
+ruby21-rubygem-net-ssh-gateway	A simple library to assist in establishing tunneled Net::SSH connections	fuel-library
+ruby21-rubygem-net-ssh-multi	Control multiple Net::SSH connections via a single interface.	fuel-library
+ruby21-rubygem-netaddr	A package for manipulating network addresses.	asilenkov
+ruby21-rubygem-open4	Manage child processes and their IO handles easily	fuel-library
+ruby21-rubygem-openstack	Ruby Openstack Compute and Object-Store bindings	asilenkov
+ruby21-rubygem-Platform	Hopefully robust platform sensing	fuel-library
+ruby21-rubygem-popen4	Open4 cross-platform	fuel-library
+ruby21-rubygem-raemon	Raemon is a Ruby framework for building UNIX daemons	fuel-library
+ruby21-rubygem-rest-client	Simple REST client for Ruby	fuel-library
+ruby21-rubygem-rgen	Ruby Modelling and Generator Framework	asilenkov
+ruby21-rubygem-shadow	Ruby bindings for shadow password access	asilenkov
+ruby21-rubygem-stomp	Ruby client for the Stomp messaging protocol	fuel-library
+ruby21-rubygem-symboltable	A Symbols-only Hash for Ruby	fuel-library
+ruby21-rubygem-systemu	systemu	fuel-library
+rubygem-abstract	a library which enable you to define abstract method in Ruby	fuel-library
+rubygem-activesupport	A toolkit of support libraries and Ruby core extensions extracted from the Rails framework.	fuel-library
+rubygem-arel	Arel is a Relational Algebra for Ruby	fuel-library
+rubygem-builder	Builders for MarkUp.	fuel-library
+rubygem-bundler	The best way to manage your application's dependencies	fuel-library
+rubygem-bunny	Synchronous Ruby AMQP 0.8.0 client	fuel-library
+rubygem-cstruct	CStruct is a simulation of the C language's struct.	fuel-library
+rubygem-daemons	A toolkit to create and control daemons in different ways	fuel-library
+rubygem-erubis	a fast and extensible eRuby implementation which supports multi-language	fuel-library
+rubygem-eventmachine	Ruby/EventMachine library	fuel-library
+rubygem-eventmachine-doc	Documentation for rubygem-eventmachine	fuel-library
+rubygem-extlib	Support library for DataMapper and Merb	fuel-library
+rubygem-extlib-doc	Documentation for rubygem-extlib	fuel-library
+rubygem-fastthread	Optimized replacement for thread.rb primitives	fuel-library
+rubygem-gem_plugin	A plugin system based only on rubygems that uses dependencies only	fuel-library
+rubygem-highline	HighLine is a high-level command-line IO library.	fuel-library
+rubygem-httpclient	HTTP Client interface for ruby	fuel-library
+rubygem-httpclient-doc	Documentation for rubygem-httpclient	fuel-library
+rubygem-i18n	New wave Internationalization support for Ruby	fuel-library
+rubygem-ipaddress	IPv4/IPv6 addresses manipulation library	fuel-library
+rubygem-ipaddress-doc	Documentation for rubygem-ipaddress	fuel-library
+rubygem-json_pure	JSON Implementation for Ruby	fuel-library
+rubygem-json_pure-doc	Documentation for rubygem-json_pure	fuel-library
+rubygem-json-doc	Documentation for rubygem-json	fuel-library
+rubygem-mail	Mail provides a nice Ruby DSL for making, sending and reading emails.	fuel-library
+rubygem-mime-types	Return the MIME Content-Type for a given filename	fuel-library
+rubygem-mime-types-doc	Documentation for rubygem-mime-types	fuel-library
+rubygem-mixlib-authentication	Mixes in simple per-request authentication	fuel-library
+rubygem-mixlib-cli	Simple Ruby mix-in for CLI interfaces	fuel-library
+rubygem-mixlib-cli-doc	Documentation for rubygem-mixlib-cli	fuel-library
+rubygem-mixlib-config	A class based config mixin, similar to the one found in Chef.	fuel-library
+rubygem-mixlib-log	A gem that provides a simple mixin for log functionality	fuel-library
+rubygem-mixlib-shellout	Run external commands on Unix or Windows	fuel-library
+rubygem-moneta	A unified interface to key/value stores	fuel-library
+rubygem-mongrel	A small fast HTTP library and server for Ruby apps	fuel-library
+rubygem-net-ssh	Net::SSH: a pure-Ruby implementation of the SSH2 client protocol.	fuel-library
+rubygem-net-ssh-gateway	A simple library to assist in establishing tunneled Net::SSH connections	fuel-library
+rubygem-net-ssh-multi	Control multiple Net::SSH connections via a single interface.	fuel-library
+rubygem-netaddr	A package for manipulating network addresses.	fuel-library
+rubygem-ohai	Profiles your system and emits JSON	fuel-library
+rubygem-openstack	Ruby Openstack Compute and Object-Store bindings	fuel-library
+rubygem-polyglot	Augment 'require' to load non-Ruby file types	fuel-library
+rubygem-rack	Common API for connecting web frameworks, web servers and layers of software	fuel-library
+rubygem-rack-mount	Stackable dynamic tree based Rack router	fuel-library
+rubygem-rack-test	Simple testing API built on Rack	fuel-library
+rubygem-raemon	Raemon is a Ruby framework for building UNIX daemons	fuel-library
+rubygem-rest-client	Simple REST client for Ruby	fuel-library
+rubygem-rethtool	Partial Ruby wrapper around the SIOCETHTOOL ioctl	fuel-library
+rubygem-stomp	Ruby client for the Stomp messaging protocol	fuel-library
+rubygem-stomp-doc	Documentation for rubygem-stomp	fuel-library
+rubygem-symboltable	A Symbols-only Hash for Ruby	fuel-library
+rubygem-systemu	systemu	fuel-library
+rubygem-thin	A thin and fast web server	fuel-library
+rubygem-thin-doc	Documentation for rubygem-thin	fuel-library
+rubygem-treetop	A Ruby-based text parsing and interpretation DSL	fuel-library
+rubygem-tzinfo	Daylight-savings aware timezone library	fuel-library
+rubygem-uuidtools	UUID generator	fuel-library
+rubygem-yajl-ruby	Ruby C bindings to the excellent Yajl JSON stream-based parser library	fuel-library
+sahara	Apache Hadoop cluster management on OpenStack	mos-dat
+saslwrapper	Ruby and Python wrappers for the cyrus sasl library.	?
+scapy	Interactive packet manipulation tool and network scanner	mos-dat
+scsi-target-utils	The SCSI target daemon and utility programs	mos-linux
+send2syslog	Simplify sending of messages to syslog system	?
+setools-libs-python	Python bindings for SELinux policy analysis	
+sheepdog	The Sheepdog Distributed Storage System for KVM/QEMU	?
+shotgun	Shotgun package	fuel-xxx
+sphinxcontrib-actdiag	Sphinx actdiag extension	?
+sphinxcontrib-blockdiag	Sphinx blockdiag extension	?
+sphinxcontrib-nwdiag	Sphinx nwdiag and rackdiag extension	?
+sphinxcontrib-seqdiag	Sphinx seqdiag extension	?
+subscription-manager	Tools and libraries for subscription and repository management	?
+supervisor	A System for Allowing the Control of Process State on UNIX	?
+system-config-network-tui	The Network Adminstration Tool	
+tcptraceroute	A traceroute implementation using TCP packets	mos-linux
+tinyproxy	A small, efficient HTTP/SSL proxy daemon	?
+tunctl	Create and remove virtual network interfaces	
+udev	A userspace implementation of devfs	
+upstart	An event-driven init system	
+uwsgi-plugin-common	uWSGI - Common plugins for uWSGI	?
+uwsgi-plugin-python	uWSGI - Plugin for Python support	?
+v8	JavaScript Engine	?
+vconfig	Linux 802.1q VLAN configuration utility	?
+web-assets-filesystem	The basic directory layout for Web Assets	?
+whatmask	Convert between different netmask types and show information	?
+wireless-tools	Wireless ethernet configuration tools	?
+wxBase	Non-GUI support classes from the wxWidgets library	?
+wxGTK	GTK2 port of the wxWidgets GUI library	?
+wxGTK-gl	OpenGL add-on for the wxWidgets library	?
+zabbix	Enterprise-class open source distributed monitoring solution.	?
+zabbix-agent	Zabbix Agent	?
+zabbix-sender	Zabbix Sender	?
+zabbix-server	Zabbix server common files	?
+zabbix-server-mysql	Zabbix server compiled to use MySQL database	?
+zabbix-server-pgsql	Zabbix server compiled to use PostgresSQL database	?
+zabbix-web	Zabbix Web Frontend	?
+zabbix-web-mysql	Zabbix web frontend for MySQL	?
+zabbix-web-pgsql	Zabbix web frontend for PostgreSQL	?
+zd1211-firmware	Firmware for wireless devices based on zd1211 chipset	
+zeromq	Software library for fast, message-based applications	?
+zeromq3	Software library for fast, message-based applications	?
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		

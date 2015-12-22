@@ -2,6 +2,7 @@
 
 import os
 import json
+import re
 
 from base import RepodataBase
 from urllib import urlretrieve
@@ -27,20 +28,49 @@ class Repodata(RepodataBase):
     def grep_package(self, name, pattern=None):
         self.get_packages(name)
 
+    """
     def get_packages(self, name='-a', repofrompath=[]):
-        #name = name if name else '-a'
         queryfmt = '{"name":"%{name}","version":"%{version}",' \
                    '"release":"%{release}","vendor":"%{vendor}",' \
                    '"repoid":"%{repoid}","packager":"%{packager}",' \
-                   '"epoch":"%{epoch}"}'
+                   '"epoch":"%{epoch}"'
         queryargs = ['--repofrompath={},{}'.format(self.repo_id, self.cache_dir)]
         for item in repofrompath:
             queryargs.append('--repofrompath=%s' % item)
         queryargs.extend(['--qf', queryfmt, name])
 
         return [json.loads(line.strip()) for line in repoquery(*queryargs)]
-#        for line in repoquery(*queryargs):
-#            yield json.loads(line.strip())
+    """
+
+    def get_packages(self, name='-a', repofrompath=[]):
+        queryfmt = 'name : %{name}\n' \
+                   'epoch : %{epoch}\n' \
+                   'version : %{version}\n' \
+                   'release : %{release}\n' \
+                   'vendor : %{vendor}\n' \
+                   'packager : %{packager}\n' \
+                   'repoid : %{repoid}\n' \
+                   'packager : %{packager}\n' \
+                   'summary : %{summary}\n' \
+                   'source : %{sourcerpm}\n' \
+                   'END_OF_RECORD'
+        queryargs = []
+        item = '{},{}'.format(self.repo_id, self.cache_dir)
+        if item not in repofrompath:
+            queryargs.append('--repofrompath=%s' % item)
+        for item in repofrompath:
+            queryargs.append('--repofrompath=%s' % item)
+        queryargs.extend(['--qf', queryfmt, name])
+
+        pkg_info = {}
+        for line in repoquery(*queryargs):
+            line = line.strip()
+            if line == 'END_OF_RECORD':
+                yield pkg_info
+                pkg_info = {}
+            kv = line.split(' : ', 1)
+            if len(kv) == 2:
+                pkg_info[kv[0]] = kv[1]
 
     def get_dependencies(self, name, repofrompath=[]):
         queryargs = ['--repofrompath={},{}'.format(self.repo_id, self.cache_dir)]
